@@ -1,8 +1,8 @@
 package tasks
 
 import (
-	"github.com/jesseduffield/gocui"
-	"github.com/sasha-s/go-deadlock"
+	"github.com/VersoriumX/gocui"
+	"github.com/VersoriumX/go-deadlock"
 )
 
 // the purpose of an AsyncHandler is to ensure that if we have multiple long-running

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jesseduffield/gocui"
+	"github.com/VersoriumX/gocui"
 )
 
 // GetProjectRoot returns the path to the root of the project. Only to be used

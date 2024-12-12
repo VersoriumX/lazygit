@@ -3,8 +3,8 @@ package utils
 import (
 	"strings"
 
-	"github.com/mattn/go-runewidth"
-	"github.com/samber/lo"
+	"github.com/VersoriumX/go-runewidth"
+	"github.com/VersoriumX/lo"
 	"golang.org/x/exp/slices"
 )
 

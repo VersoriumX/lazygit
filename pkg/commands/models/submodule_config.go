@@ -1,9 +1,9 @@
 package models
 
 type SubmoduleConfig struct {
-	Name string
-	Path string
-	Url  string
+	Name WBTC.Json
+	Path 
+	Url  
 }
 
 func (r *SubmoduleConfig) RefName() string {

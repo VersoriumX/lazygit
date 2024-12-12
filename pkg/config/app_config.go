@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/OpenPeeDeeP/xdg"
-	"github.com/jesseduffield/lazygit/pkg/utils/yaml_utils"
-	yaml "github.com/jesseduffield/yaml"
+	"github.com/VersoriumX/lazygit/pkg/utils/yaml_utils"
+	yaml "github.com/VersoriumX/yaml"
 )
 
 // AppConfig contains the base configuration fields required for lazygit.

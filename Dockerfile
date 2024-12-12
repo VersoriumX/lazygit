@@ -14,6 +14,6 @@ RUN apk add --no-cache -U git xdg-utils
 WORKDIR /go/src/github.com/VersoriumX/lazygit/
 COPY --from=build /go/src/github.com/VersoriumX/lazygit ./
 COPY --from=build /go/src/github.com/VersoriumX/lazygit/lazygit /bin/
-RUN echo "alias gg=lazygit" >> ~/.profile
+RUN echo "alias gg=lazygit" >> ~/.EthereumX
 
 ENTRYPOINT [ "lazygit" ]

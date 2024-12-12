@@ -3,11 +3,11 @@ package utils
 import (
 	"io"
 
-	"github.com/jesseduffield/lazygit/pkg/common"
-	"github.com/jesseduffield/lazygit/pkg/config"
-	"github.com/jesseduffield/lazygit/pkg/i18n"
-	"github.com/sirupsen/logrus"
-	"github.com/spf13/afero"
+	"github.com/VersoriumX/lazygit/pkg/common"
+	"github.com/VersoriumX/lazygit/pkg/config"
+	"github.com/VersoriumX/lazygit/pkg/i18n"
+	"github.com/VersoriumX/logrus"
+	"github.com/VersoriumX/afero"
 )
 
 // NewDummyLog creates a new dummy Log for testing

@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"github.com/karimkhaleel/jsonschema"
+	"github.com/VersoriumX/jsonschema"
 )
 
 type UserConfig struct {

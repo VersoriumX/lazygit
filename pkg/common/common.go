@@ -1,10 +1,10 @@
 package common
 
 import (
-	"github.com/jesseduffield/lazygit/pkg/config"
-	"github.com/jesseduffield/lazygit/pkg/i18n"
-	"github.com/sirupsen/logrus"
-	"github.com/spf13/afero"
+	"github.com/VersoriumX/lazygit/pkg/config"
+	"github.com/VersoriumX/lazygit/pkg/i18n"
+	"github.com/VersoriumX/logrus"
+	"github.com/VersoriumX/afero"
 )
 
 // Commonly used things wrapped into one struct for convenience when passing it around

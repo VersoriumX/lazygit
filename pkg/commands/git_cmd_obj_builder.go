@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/jesseduffield/lazygit/pkg/commands/oscommands"
-	"github.com/sirupsen/logrus"
+	"github.com/VersoriumX/lazygit/pkg/commands/oscommands"
+	"github.com/VersoriumX/logrus"
 )
 
 // all we're doing here is wrapping the default command object builder with

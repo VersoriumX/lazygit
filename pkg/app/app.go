@@ -13,7 +13,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/afero"
 
-	appTypes "github.com/jesseduffield/lazygit/pkg/app/types"
+	appTypes "github.com/VersoriumX/lazygit/pkg/app/types"
 	"github.com/VersoriumX/lazygit/pkg/commands"
 	"github.com/VersoriumX/lazygit/pkg/commands/git_commands"
 	"github.com/VersoriumX/lazygit/pkg/commands/oscommands"

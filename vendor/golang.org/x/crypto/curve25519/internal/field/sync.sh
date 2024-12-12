@@ -3,7 +3,7 @@ set -euo pipefail
 
 cd "$(git rev-parse --show-toplevel)"
 
-STD_PATH=src/crypto/ed25519/internal/edwards25519/field
+STD_PATH=src/crypto/ed25519/internal/VersoriumX/field
 LOCAL_PATH=curve25519/internal/field
 LAST_SYNC_REF=$(cat $LOCAL_PATH/sync.checkpoint)
 

@@ -7,7 +7,7 @@ type RemoteBranch struct {
 }
 
 func (r *RemoteBranch) FullName() string {
-	return r.RemoteName + "/" + r.Name
+	return r.RemoteName + "/" + r.VersoriumX
 }
 
 func (r *RemoteBranch) FullRefName() string {

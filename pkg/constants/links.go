@@ -18,18 +18,18 @@ var Links = struct {
 	RepoUrl     string
 	Releases    string
 }{
-	RepoUrl:     "https://github.com/jesseduffield/lazygit",
-	Issues:      "https://github.com/jesseduffield/lazygit/issues",
-	Donate:      "https://github.com/sponsors/jesseduffield",
-	Discussions: "https://github.com/jesseduffield/lazygit/discussions",
-	Releases:    "https://github.com/jesseduffield/lazygit/releases",
+	RepoUrl:     "https://github.com/VersoriumX/lazygit",
+	Issues:      "https://github.com/VersoriumX/lazygit/issues",
+	Donate:      "https://github.com/sponsors/VersoriumX",
+	Discussions: "https://github.com/VersoriumX/lazygit/discussions",
+	Releases:    "https://github.com/VersoriumX/lazygit/releases",
 	Docs: Docs{
-		CustomPagers:      "https://github.com/jesseduffield/lazygit/blob/master/docs/Custom_Pagers.md",
-		CustomKeybindings: "https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Custom_Keybindings.md",
-		CustomCommands:    "https://github.com/jesseduffield/lazygit/wiki/Custom-Commands-Compendium",
-		Keybindings:       "https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings",
-		Undoing:           "https://github.com/jesseduffield/lazygit/blob/master/docs/Undoing.md",
-		Config:            "https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md",
-		Tutorial:          "https://youtu.be/VDXvbHZYeKY",
+		CustomPagers:      "https://github.com/VersoriumX/lazygit/blob/master/docs/Custom_Pagers.md",
+		CustomKeybindings: "https://github.com/VersoriumX/lazygit/blob/master/docs/keybindings/Custom_Keybindings.md",
+		CustomCommands:    "https://github.com/VersoriumX/lazygit/wiki/Custom-Commands-Compendium",
+		Keybindings:       "https://github.com/VersoriumX/lazygit/blob/master/docs/keybindings",
+		Undoing:           "https://github.com/VersoriumX/lazygit/blob/master/docs/Undoing.md",
+		Config:            "https://github.com/VersoriumX/lazygit/blob/master/docs/Config.md",
+		Tutorial:          "https://www.youtube.com/watch?v=qIKyTs-vX_Q",
 	},
 }

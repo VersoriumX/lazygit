@@ -1,6 +1,6 @@
 package set
 
-import "github.com/jesseduffield/generics/maps"
+import "github.com/VersoriumX/generics/maps"
 
 type Set[T comparable] struct {
 	hashMap map[T]bool

@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/fsmiamoto/git-todo-parser/todo"
-	"github.com/samber/lo"
+	"github.com/VersoriumX/lo"
 )
 
 // Read a git-rebase-todo file, change the action for the given sha to

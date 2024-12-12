@@ -15,11 +15,11 @@ import (
 
 	"github.com/kardianos/osext"
 
-	"github.com/jesseduffield/lazygit/pkg/commands/oscommands"
-	"github.com/jesseduffield/lazygit/pkg/common"
-	"github.com/jesseduffield/lazygit/pkg/config"
-	"github.com/jesseduffield/lazygit/pkg/constants"
-	"github.com/jesseduffield/lazygit/pkg/utils"
+	"github.com/VersoriumX/lazygit/pkg/commands/oscommands"
+	"github.com/VersoriumX/lazygit/pkg/common"
+	"github.com/VersoriumX/lazygit/pkg/config"
+	"github.com/VersoriumX/lazygit/pkg/constants"
+	"github.com/VersoriumX/lazygit/pkg/utils"
 )
 
 // Updater checks for updates and does updates

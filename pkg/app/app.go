@@ -14,17 +14,17 @@ import (
 	"github.com/spf13/afero"
 
 	appTypes "github.com/jesseduffield/lazygit/pkg/app/types"
-	"github.com/jesseduffield/lazygit/pkg/commands"
-	"github.com/jesseduffield/lazygit/pkg/commands/git_commands"
-	"github.com/jesseduffield/lazygit/pkg/commands/oscommands"
-	"github.com/jesseduffield/lazygit/pkg/common"
-	"github.com/jesseduffield/lazygit/pkg/config"
-	"github.com/jesseduffield/lazygit/pkg/constants"
-	"github.com/jesseduffield/lazygit/pkg/env"
-	"github.com/jesseduffield/lazygit/pkg/gui"
-	"github.com/jesseduffield/lazygit/pkg/i18n"
-	"github.com/jesseduffield/lazygit/pkg/logs"
-	"github.com/jesseduffield/lazygit/pkg/updates"
+	"github.com/VersoriumX/lazygit/pkg/commands"
+	"github.com/VersoriumX/lazygit/pkg/commands/git_commands"
+	"github.com/VersoriumX/lazygit/pkg/commands/oscommands"
+	"github.com/VersoriumX/lazygit/pkg/common"
+	"github.com/VersoriumX/lazygit/pkg/config"
+	"github.com/VersoriumX/lazygit/pkg/constants"
+	"github.com/VersoriumX/lazygit/pkg/env"
+	"github.com/VersoriumX/lazygit/pkg/gui"
+	"github.com/VersoriumX/lazygit/pkg/i18n"
+	"github.com/VersoriumX/lazygit/pkg/logs"
+	"github.com/VersoriumX/lazygit/pkg/updates"
 )
 
 // App is the struct that's instantiated from within main.go and it manages

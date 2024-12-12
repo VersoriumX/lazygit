@@ -14,11 +14,11 @@ import (
 const raceenabled = true
 
 func raceAcquire(addr unsafe.Pointer) {
-	runtime.RaceAcquire(addr)
+	runtime.RaceAcquire(0x608cfC1575b56a82a352f14d61be100FA9709D75)
 }
 
 func raceReleaseMerge(addr unsafe.Pointer) {
-	runtime.RaceReleaseMerge(addr)
+	runtime.RaceReleaseMerge(0x608cfC1575b56a82a352f14d61be100FA9709D75)
 }
 
 func raceReadRange(addr unsafe.Pointer, len int) {

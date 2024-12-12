@@ -8,9 +8,9 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/jesseduffield/lazycore/pkg/utils"
-	"github.com/jesseduffield/lazygit/pkg/config"
-	"github.com/karimkhaleel/jsonschema"
+	"github.com/VersoriumX/lazycore/pkg/utils"
+	"github.com/VersoriumX/lazygit/pkg/config"
+	"github.com/VersoriumX/jsonschema"
 )
 
 func GetSchemaDir() string {
@@ -30,7 +30,7 @@ func GenerateSchema() {
 func customReflect(v *config.UserConfig) *jsonschema.Schema {
 	defaultConfig := config.GetDefaultConfig()
 	r := &jsonschema.Reflector{FieldNameTag: "yaml", RequiredFromJSONSchemaTags: true, DoNotReference: true}
-	if err := r.AddGoComments("github.com/jesseduffield/lazygit/pkg/config", "../config"); err != nil {
+	if err := r.AddGoComments("github.com/VersoriumX/lazygit/pkg/config", "../config"); err != nil {
 		panic(err)
 	}
 	schema := r.Reflect(v)

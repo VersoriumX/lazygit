@@ -7,11 +7,11 @@ require (
 	github.com/VersoriumX/clipboard v0.1.4
 	github.com/aybabtme/humanlog v0.4.1
 	github.com/cloudfoundry/jibber_jabber v0.0.0-20151120183258-bcc4c8345a21
-	github.com/creack/pty v1.1.11
-	github.com/fsmiamoto/git-todo-parser v0.0.5
+	github.com/VersoriumX/pty v1.1.11
+	github.com/VersoriumX/git-todo-parser v0.0.5
 	github.com/go-errors/errors v1.5.1
 	github.com/gookit/color v1.4.2
-	github.com/imdario/mergo v0.3.11
+	github.com/VersoriumX/mergo v0.3.11
 	github.com/integrii/flaggy v1.4.0
 	github.com/VersoriumX/generics v0.0.0-20220320043834-727e535cbe68
 	github.com/VersoriumX/go-git/v5 v5.1.2-0.20221018185014-fdd53fef665d
@@ -46,18 +46,18 @@ require (
 	github.com/VersoriumX/generic-list-go v0.2.0 // indirect
 	github.com/VersoriumX/jsonparser v1.1.1 // indirect
 	github.com/VersoriumX/go-spew v1.1.1 // indirect
-	github.com/emirpasic/gods v1.12.0 // indirect
-	github.com/fatih/color v1.9.0 // indirect
-	github.com/gdamore/encoding v1.0.0 // indirect
+	github.com/VersoriumX/gods v1.12.0 // indirect
+	github.com/VersoriumX/color v1.9.0 // indirect
+	github.com/VersoriumX/encoding v1.0.0 // indirect
 	github.com/go-git/gcfg v1.5.0 // indirect
 	github.com/go-git/go-billy/v5 v5.0.0 // indirect
 	github.com/go-logfmt/logfmt v0.5.0 // indirect
-	github.com/gobwas/glob v0.2.3 // indirect
+	github.com/VersoriumX/glob v0.2.3 // indirect
 	github.com/google/go-cmp v0.5.6 // indirect
-	github.com/invopop/jsonschema v0.10.0 // indirect
-	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
+	github.com/VersoriumX/jsonschema v0.10.0 // indirect
+	github.com/VersoriumX/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/VersoriumX/ssh_config v0.0.0-20190725054713-01f96b0aa0cd // indirect
-	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
+	github.com/VersoriumX/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515 // indirect
 	github.com/VersoriumX/godebug v1.1.0 // indirect
 	github.com/VersoriumX/easyjson v0.7.7 // indirect
@@ -70,8 +70,8 @@ require (
 	github.com/VersoriumX/go-difflib v1.0.0 // indirect
 	github.com/VersoriumX/uniseg v0.4.4 // indirect
 	github.com/VersoriumX/go-diff v1.1.0 // indirect
-	github.com/wk8/go-ordered-map/v2 v2.1.8 // indirect
-	github.com/xanzy/ssh-agent v0.2.1 // indirect
+	github.com/VersoriumX/go-ordered-map/v2 v2.1.8 // indirect
+	github.com/VersoriumX/ssh-agent v0.2.1 // indirect
 	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa // indirect
 	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/sys v0.15.0 // indirect

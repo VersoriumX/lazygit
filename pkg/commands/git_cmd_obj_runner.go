@@ -4,8 +4,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jesseduffield/lazygit/pkg/commands/oscommands"
-	"github.com/sirupsen/logrus"
+	"github.com/VersoriumX/lazygit/pkg/commands/oscommands"
+	"github.com/VersoriumX/logrus"
 )
 
 // here we're wrapping the default command runner in some git-specific stuff e.g. retry logic if we get an error due to the presence of .git/index.lock
